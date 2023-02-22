@@ -141,7 +141,7 @@ body {
     padding: 10px;
     background-color: white;
     position: relative;
-    overflow: hidden;
+    overflow-wrap: normal;
 }
 
 .delete {
