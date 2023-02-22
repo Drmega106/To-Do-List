@@ -168,6 +168,8 @@ body {
     };
     .task {
         margin: 10px auto;
-    }
-
+    };
+    .tasks {
+    margin: 20px 25px;
+    };
 };
