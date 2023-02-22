@@ -161,10 +161,10 @@ body {
 
 @media (max-width: 600px) {
     .taskinput input {
-        width: 240px;
+        width: 250px;
     };
     .taskinput .btn {
-        width: 40px;
+        width: 50px;
     };
     .task {
         margin: 20px auto;
