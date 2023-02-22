@@ -41,6 +41,7 @@ btn.addEventListener("click", function (){
         taskname = input.value
         addtask(taskname);
         addToLocal(taskname);
+        location.reload();
     } else {
         false
     }
