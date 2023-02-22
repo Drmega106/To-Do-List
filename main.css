@@ -92,7 +92,7 @@ body {
     margin-right: 0px;
     border-radius: 10px;
     border: none;
-    padding: 10px;
+    padding: 5px;
     background-color: transparent;
     z-index: 1;
 }
@@ -141,6 +141,7 @@ body {
     padding: 10px;
     background-color: white;
     position: relative;
+    overflow: hidden;
 }
 
 .delete {
@@ -170,6 +171,6 @@ body {
         margin: 10px auto;
     };
     .tasks {
-    margin: 20px 25px;
+    margin: 20px 10px;
     };
 };
