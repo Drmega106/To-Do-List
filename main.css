@@ -158,7 +158,7 @@ body {
 }
 
 
-@media (max-width = 600px) {
+@media screen (max-width = 600px) {
     .taskinput input {
 
         width: 300px;
