@@ -9,8 +9,8 @@ body {
 }
 
 :root {
-    --main-color : beige;
-    --btn-color : white;
+    --main-color : "rgb(168, 168, 139)";
+    --btn-color : @4e4e3a;
 }
 
 .color {
