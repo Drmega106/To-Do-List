@@ -56,9 +56,9 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--main-color);
-    max-width: fit-content;
-    min-height: 300px;
-    margin: 50px auto 10px;
+    min-height: calc(100vh - 50px);
+    margin:  auto ;
+    padding: 30px;
     border-radius: 5px;
 }
 
@@ -66,9 +66,8 @@ body {
     position: relative;
     display: flex;
     background-color: white;
-    width: fit-content;
     border-radius: 15px;
-    margin: 30px;
+    margin: 30px auto;
     padding: 0;
 }
 
@@ -86,10 +85,10 @@ body {
 }
 
 .taskinput input {
-    width: 380px;
+    width: 400px;
     height: 40px;
     outline: none;
-    margin: 5px;
+    margin: 5px ;
     margin-right: 0px;
     border-radius: 10px;
     border: none;
@@ -99,8 +98,8 @@ body {
 }
 
 .taskinput .btn {
-    color: white;
     width: 120px;
+    color: white;
     text-align: center;
     margin: 0px;
     border-top-right-radius: 15px;
@@ -112,7 +111,10 @@ body {
     user-select: none;
     z-index: 2;
 }
-
+.tasks {
+    margin: 20px 50px;
+    min-width: 300px;
+}
 .notasks {
     color: #eee;
     margin: 0;
@@ -133,11 +135,10 @@ body {
 }
 
 .task {
-    width: 550px;
+    margin: 15px 5px;
     border-radius: 10px;
     border: none;
     padding: 10px;
-    margin: 20px;
     background-color: white;
     position: relative;
 }
@@ -158,13 +159,15 @@ body {
 }
 
 
-@media  (max-width = 900px) {
+@media (max-width: 600px) {
     .taskinput input {
-
-        width: 300px;
+        width: 250px;
     };
     .taskinput .btn {
-        width: 70px
+        width: 50px;
     };
+    .task {
+        margin: 20px auto;
+    }
 
-}
+};
