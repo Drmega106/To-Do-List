@@ -112,7 +112,7 @@ body {
     z-index: 2;
 }
 .tasks {
-    margin: 20px 40px;
+    margin: 20px 50px;
     min-width: 300px;
 }
 .notasks {
@@ -161,7 +161,7 @@ body {
 
 @media (max-width: 600px) {
     .taskinput input {
-        width: 230px;
+        width: 240px;
     };
     .taskinput .btn {
         width: 40px;
