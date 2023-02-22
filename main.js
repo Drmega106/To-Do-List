@@ -38,10 +38,14 @@ color.forEach((span) => {
 
 btn.addEventListener("click", function (){
     if (input.value !== "") {
+        if (/,/.test(input.value)) {
+           false;
+       }else {
         taskname = input.value
         addtask(taskname);
         addToLocal(taskname);
-        location.reload();
+        location.reload(); 
+        }
     } else {
         false
     }
