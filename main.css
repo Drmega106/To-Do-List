@@ -112,7 +112,7 @@ body {
     z-index: 2;
 }
 .tasks {
-    margin: 20px 50px;
+    margin: 20px auto;
     min-width: 270px;
 }
 .notasks {
@@ -169,8 +169,5 @@ body {
     };
     .task {
         margin: 10px auto;
-    };
-    .tasks {
-    margin: 20px 10px;
     };
 };
