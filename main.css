@@ -9,7 +9,7 @@ body {
 }
 
 :root {
-    --main-color : "rgb(168, 168, 139)";
+    --main-color : rgb(168, 168, 139);
     --btn-color : #4e4e3a;
 }
 
@@ -161,13 +161,13 @@ body {
 
 @media (max-width: 600px) {
     .taskinput input {
-        width: 250px;
+        width: 240px;
     };
     .taskinput .btn {
-        width: 50px;
+        width: 35px;
     };
     .task {
-        margin: 20px auto;
+        margin: 10px auto;
     }
 
 };
