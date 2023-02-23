@@ -85,7 +85,6 @@ body {
 }
 
 .taskinput input {
-   font-size: 10px;
     width: 400px;
     height: 40px;
     outline: none;
@@ -140,14 +139,14 @@ body {
     font-size : 15px;
     margin: 15px 5px;
     border-radius: 10px;
-    border: none;
-    padding: 15px 40px 15px 15px;
+    padding: 15px;
     background-color: white;
     position: relative;
     overflow-wrap: normal;
 }
 
 .delete {
+    font-size : 10px;
     text-align: center;
     color: aliceblue;
     position: absolute;
@@ -155,7 +154,6 @@ body {
     right: 5px ;
     bottom: 5px;
     border-radius: 7px;
-    border: none;
     padding: 5px;
     cursor: pointer;
     background-color: var(--btn-color);
