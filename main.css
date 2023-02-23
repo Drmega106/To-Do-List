@@ -95,7 +95,6 @@ body {
     padding: 5px;
     background-color: transparent;
     z-index: 1;
-    font-size: 13px;
 }
 
 .taskinput .btn {
@@ -146,7 +145,6 @@ body {
     background-color: white;
     position: relative;
     overflow-wrap: normal;
-    min-height: 35px;
 }
 
 .delete {
