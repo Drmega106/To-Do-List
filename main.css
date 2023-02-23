@@ -99,6 +99,7 @@ body {
 }
 
 .taskinput .btn {
+    font-size : 22 px;
     font-weight: 500;
     width: 120px;
     color: white;
@@ -144,6 +145,7 @@ body {
     position: relative;
     overflow-wrap: normal;
     font-size : 20 px;
+    transition : display 0,5s;
 }
 
 .delete {
