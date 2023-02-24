@@ -96,6 +96,7 @@ body {
     padding: 5px;
     background-color: transparent;
     z-index: 1;
+    caret-color: var(--btn-color);
 }
 
 .taskinput .btn {
