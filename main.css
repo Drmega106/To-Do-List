@@ -113,7 +113,7 @@ body {
     background-color: var(--btn-color);
     user-select: none;
     z-index: 2;
-    font-size: 24 px;
+    font-size : 24 px;
 }
 .tasks {
     margin: 20px auto;
