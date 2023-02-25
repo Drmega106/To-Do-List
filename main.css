@@ -85,7 +85,6 @@ body {
 }
 
 .taskinput input {
-    font-size : 13 px;
     width: 400px;
     height: 40px;
     outline: none;
@@ -113,7 +112,7 @@ body {
     background-color: var(--btn-color);
     user-select: none;
     z-index: 2;
-    font-size : 24 px;
+    font-size : 20px;
 }
 .tasks {
     margin: 20px auto;
