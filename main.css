@@ -3,16 +3,13 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
 :root {
     --main-color : rgb(168, 168, 139);
     --btn-color : #4e4e3a;
 }
-
 .color {
     margin: 10px auto;
     background-color: white;
@@ -33,25 +30,19 @@ body {
 }
 .color span:nth-child(2) {
     background-color: rgb(8, 71, 83);
-
 }
  .color span:nth-child(3) {
     background-color: rgb(104, 19, 105);
-
 } 
 .color span:nth-child(4) {
     background-color: #eb6a53;
-
 }
  .color span:nth-child(5) {
     background-color: #90d890;
-
 } 
 .color span:nth-child(6) {
      background-color: #cfcf90;
 }
-
-
 .container {
     display: flex;
     flex-direction: column;
@@ -61,7 +52,6 @@ body {
     padding: 15px;
     border-radius: 5px;
 }
-
 .taskinput {
     position: relative;
     display: flex;
@@ -70,7 +60,6 @@ body {
     margin: 30px auto;
     padding: 0;
 }
-
 .taskinput::after {
     position: absolute;
     content: "";
@@ -83,7 +72,6 @@ body {
     user-select: none;
     border-radius: 15px;
 }
-
 .taskinput input {
     width: 400px;
     height: 40px;
@@ -97,7 +85,6 @@ body {
     z-index: 1;
     caret-color: var(--btn-color);
 }
-
 .taskinput .btn {
     font-weight: 500;
     width: 120px;
@@ -125,8 +112,6 @@ body {
     font-size: 50px;
     display: none;
 }
-
-
 .footer {
     margin: 10px auto;
     text-align: center;
@@ -136,7 +121,6 @@ body {
     color: blue;
     font-weight: 600;
 }
-
 .task {
     margin: 15px 5px;
     border-radius: 10px;
@@ -147,7 +131,6 @@ body {
     font-size : 20 px;
     transition : display, 0,5s;
 }
-
 .delete {
     text-align: center;
     color: aliceblue;
@@ -162,8 +145,6 @@ body {
     user-select: none;
     font-size: 12 px;
 }
-
-
 @media (max-width: 600px) {
     .taskinput input {
         width: 240px;
